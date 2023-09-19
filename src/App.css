@@ -1,0 +1,107 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+.search-bar {
+  width: 100%;
+}
+.searchbar {
+  /* margin-right: 10px; */
+  height: 30px;
+  width: 200px;
+  border: none;
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  padding: 10px;
+}
+.search-bar button {
+  height: 50px;
+  width: 217px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+}
+.user-form {
+  margin-top: 50px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.user-form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #e4e4e4;
+  border-radius: 5px;
+}
+.user-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 93.5%;
+}
+.user-result {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.user-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.user-table th,
+.user-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+.user-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+.user-table {
+  margin-top: 20px;
+}
+.MuiPaper-root {
+  width: 100%;
+}
+.MuiTableHead-root {
+  background-color: #007bff;
+  color: #fff;
+}
+.MuiTableCell-root {
+  padding: 10px;
+}
+.MuiTableRow-root:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.MuiTableRow-root:hover {
+  background-color: #ddd;
+}
+.auto-suggest {
+  position: relative;
+}
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+.suggestions li:last-child {
+  border-bottom: none;
+}
+.suggestions li:hover {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,4 @@
+# ignore ALL .log files
+node_modules
+Backend/node_modules
+.DS_store
